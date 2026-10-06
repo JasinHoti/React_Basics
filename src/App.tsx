@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import "./App.css";
+import Card from "./card";
+
+// ALT Shift O (organize import)
+// ALT Shift F (format)
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <h1>Youtub Videos</h1>
+        <h1>Youtube Videos</h1>
+        <div className="Cardconteiner">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
