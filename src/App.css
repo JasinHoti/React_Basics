@@ -10,43 +10,17 @@ h1 {
   text-align: center;
 }
 
-h1::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 64px;
-  height: 5px;
-  border-radius: 3px;
-  background: #28a98b;
-  transform: translateX(-50%);
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.25rem;
-  }
-}
-
-h1::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 64px;
-  height: 5px;
-  border-radius: 3px;
-  background: #28a98b;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.25rem;
-  }
-}
 .Cardconteiner {
   display: flex;
   gap: 16px;
+  justify-content: center;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .Card {
@@ -66,4 +40,11 @@ body {
     transparent 47px,
     rgba(65, 82, 62, 0.07) 48px
   );
+}
+
+.ListContainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
