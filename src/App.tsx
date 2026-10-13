@@ -1,6 +1,6 @@
 import "./App.css";
-import Button from "./button";
-import Card from "./card";
+import Button from "./Button";
+import Card from "./Card";
 import List from "./List";
 
 // ALT Shift O (organize import)
