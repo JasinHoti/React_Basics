@@ -23,10 +23,10 @@ function App() {
           <Button label="React-Doku" url="https://react.dev" />
         </div>
         <div className= {Syles.ListContainer}>
-          <List />
-          <List />
-          <List />
-          <List />
+          <List Text="React Grundlagen"/>
+          <List Text="JavaScript Basics" />
+          <List Text="CSS Flexbox" />
+          <List Text="CSS Module" />
 
         </div>
       </div>

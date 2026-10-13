@@ -1,15 +1,17 @@
 
-type Props = {}
+type Props = {
+  Text: string;
+}
 
-export default function 
-List({}: Props) {
+export default function List({ Text }: Props) {
   return (
     <div>
-        <ul>
-  <li>React Grundlagen</li>
-  <li>JavaScript Basics</li>
-  <li>CSS Flexbox</li>
-</ul>
+      <ul>
+        <li>{Text}</li>
+        <li>{Text}</li>
+        <li>{Text}</li>
+        <li>{Text}</li>
+      </ul>
     </div>
   )
 }
