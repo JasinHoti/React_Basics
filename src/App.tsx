@@ -11,10 +11,10 @@ function App() {
       <div>
         <h1 className={Syles.h1}>Youtube Videos</h1>
         <div className={Syles.Cardcontainer}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card Title="Video 1" Text="infos zu Video 1" img="https://picsum.photos/200/300" />
+          <Card Title="Video 2" Text="infos zu Video 2" img="https://picsum.photos/200/300"/>
+          <Card Title="Video 3" Text="infos zu Video 3" img="https://picsum.photos/200/300"/>
+          <Card Title="Video 4" Text="infos zu Video 4" img="https://picsum.photos/200/300"/>
         </div>
         <div className= {Syles.ButtonContainer}>
           <Button label="YouTube" url="https://www.youtube.com" />
