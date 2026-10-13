@@ -10,18 +10,6 @@ h1 {
   text-align: center;
 }
 
-.Cardconteiner {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-}
-
-.ButtonContainer {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-top: 1rem;
-}
 
 .Card {
   border: 1px solid black;
@@ -40,11 +28,4 @@ body {
     transparent 47px,
     rgba(65, 82, 62, 0.07) 48px
   );
-}
-
-.ListContainer {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
 }

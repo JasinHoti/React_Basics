@@ -1,0 +1,31 @@
+.Cardcontainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.h1 {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 1.5rem;
+  padding-bottom: 0.6rem;
+  color: #17202a;
+  font-size: 3rem;
+  font-weight: 750;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.ListContainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
