@@ -2,6 +2,7 @@ import Button from "./Button";
 import Card from "./Card";
 import List from "./List";
 import Syles from "./App.module.css";
+import Randomword from "./Randomword";
 // ALT Shift O (organize import)
 // ALT Shift F (format)
 
@@ -16,6 +17,14 @@ function App() {
           <Card Title="Video 3" Text="infos zu Video 3" img="https://picsum.photos/200/300"/>
           <Card Title="Video 4" Text="infos zu Video 4" img="https://picsum.photos/200/300"/>
         </div>
+        <div>
+          <Randomword />
+          <Randomword />
+          <Randomword />
+          <Randomword />
+          <Randomword />
+        </div>
+        <h1 className={Syles.h1}>Links</h1>
         <div className= {Syles.ButtonContainer}>
           <Button label="YouTube" url="https://www.youtube.com" />
           <Button label="Wikipedia" url="https://www.wikipedia.org" />

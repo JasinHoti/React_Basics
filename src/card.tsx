@@ -13,6 +13,7 @@ export default function Card({ Title, Text, img }: Props) {
       <h2>{Title}</h2>
       <p>{Text}</p>
       <p>{Rrandom}</p>
+  
       <img
         src={img + '?' + Rrandom}
         alt="hero"
